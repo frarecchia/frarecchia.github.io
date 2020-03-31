@@ -1,0 +1,49 @@
+body {
+  background: url("img/bg.png") repeat;
+}
+
+#header {
+  width: 998px;
+  height: 383px;
+  background: url("img/header.png");
+}
+
+#container {
+  width: 800px;
+}
+
+#footer {
+
+}
+
+#end_text {
+  font: 1.8em "Arial", sans-serif;
+  text-align: center;
+  padding: 1em 1em 0 1em;
+}
+
+#credits {
+  font: 1.3em "Arial", sans-serif;
+  text-align: center;
+  padding: 0 1em 2em 1em;
+}
+
+.content {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* text */
+.text {
+  font: 1.3em "Arial", sans-serif;
+  text-align: left;
+  padding: 1em;
+  flex: auto;
+}
+
+/* photo */
+.photo {
+
+}
